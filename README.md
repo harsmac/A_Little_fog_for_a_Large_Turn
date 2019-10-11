@@ -22,6 +22,25 @@ Fooling Models: Ground truth Steering Angle (in radians) for each of the origina
 Note: For DistanceGAN code: Python2 is used by the original authors instead and we continue to use the same.
 
 
+## Usage
+
+### CycleGAN : 
+In the file "cycle_gan_code/models/cycle_gan_fool_model.py" update the steering model to be attacked and the alpha and theta values. Then come back to the CycleGAN folder (cycle_gan_code) and run: 
+```
+python3 train.py --dataroot /gan_train/ --name model_name --model cycle_gan_fool --preprocess none --batch_size 40 --gpu_ids 0,1,2,3 --norm instance --init_type kaiming --display_port 8097 --no_dropout --lambda_identity 3 --niter_decay 500 --niter 100
+```
+Dataroot should have following subfolders: ```trainA trainB testA testB```
+
+### DistanceGAN:
+In the file "cycle_gan_code/models/cycle_gan_fool_model.py" update the steering model to be attacked and the alpha and theta values. Then come back to the CycleGAN folder (cycle_gan_code) and run: 
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --dataroot /gan_train/ --name model_name --model distance_gan --loadSize 128 --fineSize 128 --batchSize 6 --norm instance --nThreads 8 --use_cycle_loss --max_items 5 --identity 3 --gpu_ids 1
+```
+
+## Pretrained models: 
+Coming soon!!
+
+
 ## Citation
 
 
