@@ -8,9 +8,10 @@ To this end, we introduce a general notion of adversarial perturbations, which c
 Our formulation and results show that these images provide a suitable testbed for steering models used in Autonomous navigation models. Our work also presents a more natural and general definition of Adversarial perturbations based on Perceptual Similarity.
 
 ## Examples
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Samples")
+Some sample Deviations seen in popular steering angle predictors due to fog : 
+![alt text](https://github.com/code-Assasin/A_Little_fog_for_a_Large_Turn/blob/master/images_readme/stack.png "Samples")
 
-
+Fooling Models: Ground truth Steering Angle (in radians) for each of the original test samples. The angles right below indicate the ordered pair of predicted steering angle by AutoPilot and Comma AI respectively. From the second row onward, we indicate the image translation model used and respective steering model it was trained on. The angle below each of those images indicates the prediction by the steering model for the generated foggy image.
 
 ## Requirements 
 
