@@ -14,11 +14,15 @@ Some sample Deviations seen in popular steering angle predictors due to fog :
 Fooling Models: Ground truth Steering Angle (in radians) for each of the original test samples. The angles right below indicate the ordered pair of predicted steering angle by AutoPilot and Comma AI respectively. From the second row onward, we indicate the image translation model used and respective steering model it was trained on. The angle below each of those images indicates the prediction by the steering model for the generated foggy image.
 
 ## Prerequisites 
+```
 -  Linux or macOS
 -  Python 3
 -  Preferably NVIDIA GPU + CUDA CuDNN
--  Pytorch >= 1.0
-
+-  Pytorch>=0.4.1
+-  torchvision>=0.2.1
+-  dominate>=2.3.1
+-  visdom>=0.1.8.3
+```
 Note: For DistanceGAN code: Python2 is used by the original authors instead and we continue to use the same.
 
 
@@ -42,13 +46,17 @@ Coming soon!!
 
 
 ## Citation
+If you use this work for your research, please cite our paper: 
+```
 
+Bibtex....
 
-
+```
 
 ## Acknowledegements
--  CycleGAN repository
--  DistanceGAN repository
--  AutoPilot by SullyChen
--  Comma AI 
+Our code is inspired by the following repositories: 
+-  CycleGAN repository [link](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+-  DistanceGAN repository [link](https://github.com/sagiebenaim/DistanceGAN)
+-  AutoPilot by SullyChen [link](https://github.com/SullyChen/Autopilot-TensorFlow)
+-  Comma AI [link](https://github.com/udacity/self-driving-car/blob/master/steering-models/community-models/rambo/README.md)
 
