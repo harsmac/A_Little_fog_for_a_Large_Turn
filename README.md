@@ -1,6 +1,6 @@
 # A Little Fog for a Large_Turn
 Code for the WACV 2020 paper, "A Little Fog for a Large Turn" <br>
-Arxiv paper link : [https://arxiv.org/abs/2001.05873](https://arxiv.org/abs/2001.05873)
+Arxiv paper link : [https://arxiv.org/abs/2001.05873](https://arxiv.org/abs/2001.05873)<br>
 Website link : [https://code-assasin.github.io/little_fog/](https://code-assasin.github.io/little_fog/)
 
 ## Abstract
