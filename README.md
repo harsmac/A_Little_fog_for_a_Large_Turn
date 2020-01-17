@@ -1,5 +1,6 @@
 # A Little Fog for a Large_Turn
 Code for the WACV 2020 paper, "A Little Fog for a Large Turn" <br>
+Arxiv paper link : [https://arxiv.org/abs/2001.05873](https://arxiv.org/abs/2001.05873)
 Website link : [https://code-assasin.github.io/little_fog/](https://code-assasin.github.io/little_fog/)
 
 ## Abstract
@@ -49,9 +50,14 @@ Coming soon!!
 ## Citation
 If you use this work for your research, please cite our paper: 
 ```
-
-Bibtex....
-
+@misc{machiraju2020little,
+    title={A Little Fog for a Large Turn},
+    author={Harshitha Machiraju and Vineeth N Balasubramanian},
+    year={2020},
+    eprint={2001.05873},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
 
 ## Acknowledegements
